@@ -1,0 +1,34 @@
+/* css/Student2.css - Styles for UC3 (Manage Courses) and UC6 (Reports) */
+/* Author: Student 2 */
+
+/* Course form highlight on focus */
+.form-card .form-control:focus,
+.form-card .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13,110,253,0.15);
+}
+
+/* Course list row hover highlight */
+.table tbody tr:hover td {
+    background-color: #f0f5ff;
+}
+
+/* Chart container styling */
+#monthlyChart {
+    min-height: 260px;
+}
+
+/* Report stat pill */
+.stat-pill {
+    display: inline-block;
+    background: #e9f0ff;
+    color: #0d6efd;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Status toggle */
+select[name="status"] option[value="ACTIVE"]   { color: #198754; }
+select[name="status"] option[value="INACTIVE"] { color: #6c757d; }

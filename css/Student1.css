@@ -1,0 +1,71 @@
+/* css/Student1.css - Styles for UC1 (Provider Registration) and UC2 (Officer Review) */
+/* Author: Student 1 */
+
+/* Registration page steps indicator */
+.step-indicator {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.step-indicator .step {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #dee2e6;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.85rem;
+    position: relative;
+}
+.step-indicator .step.active {
+    background: #0d6efd;
+    color: white;
+}
+.step-indicator .step-line {
+    flex: 1;
+    height: 2px;
+    background: #dee2e6;
+    align-self: center;
+    margin: 0 6px;
+}
+
+/* File upload drag area */
+.upload-area {
+    border: 2px dashed #0d6efd;
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.upload-area:hover {
+    background: #e7f0ff;
+}
+
+/* Officer review - application card */
+.application-card {
+    border-left: 4px solid #ffc107;
+    transition: box-shadow 0.2s;
+}
+.application-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+.application-card.approved {
+    border-left-color: #198754;
+}
+.application-card.rejected {
+    border-left-color: #dc3545;
+}
+
+/* Pending pulse animation */
+@keyframes pulse-warning {
+    0%   { box-shadow: 0 0 0 0 rgba(255,193,7,0.4); }
+    70%  { box-shadow: 0 0 0 8px rgba(255,193,7,0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,193,7,0); }
+}
+.badge-pending {
+    animation: pulse-warning 2s infinite;
+}
