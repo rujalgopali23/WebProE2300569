@@ -1,5 +1,4 @@
-/* css/Student1.css - Styles for UC1 (Provider Registration) and UC2 (Officer Review) */
-/* Author: Student 1 */
+
 
 /* Registration page steps indicator */
 .step-indicator {
@@ -69,3 +68,39 @@
 .badge-pending {
     animation: pulse-warning 2s infinite;
 }
+
+
+/* Payment option card */
+.payment-option {
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+}
+.payment-option:hover {
+    background: #f0f5ff;
+    border-color: #0d6efd !important;
+}
+.payment-option.border-primary {
+    background: #e7f0ff;
+}
+
+/* Star rating interactive */
+.star-rating label i {
+    font-size: 2rem;
+    transition: color 0.15s;
+}
+
+/* Receipt printable area */
+.receipt-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Review card reviewed state */
+.card.reviewed {
+    border-left: 4px solid #ffc107;
+}
+
+/* Completion badge */
+.badge-completed { background-color: #198754; color: #fff; }
+.badge-enrolled  { background-color: #0d6efd; color: #fff; }
