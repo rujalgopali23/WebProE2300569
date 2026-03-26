@@ -44,7 +44,7 @@ $revenue_data = array_column($monthly, 'rev');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="../css/shared.css" rel="stylesheet">
-    <link href="../css/Student2.css" rel="stylesheet">
+    <link href="../css/E2300580.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -167,7 +167,7 @@ $revenue_data = array_column($monthly, 'rev');
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../js/Student2.js"></script>
+<script src="../js/E2300580.js"></script>
 <script>
 const ctx = document.getElementById('monthlyChart').getContext('2d');
 new Chart(ctx, {

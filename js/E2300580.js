@@ -1,9 +1,8 @@
-// js/Student2.js - JavaScript for UC3 (Manage Courses) and UC6 (Reports)
-// Author: Student 2
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ---- UC3: Manage Courses ----
+    // ---- Manage Courses (UC3) ----
 
     // Auto-set end_date minimum to start_date
     const startDate = document.querySelector('[name="start_date"]');
@@ -36,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // ---- UC6: Reports ----
+    // ---- Reports (UC6) ----
 
     // Highlight current month in table
     const currentMonth = new Date().getMonth(); // 0-indexed

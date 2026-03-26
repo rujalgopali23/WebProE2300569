@@ -20,7 +20,7 @@ $enrolments = mysqli_query($conn,"SELECT e.*, c.title, c.duration_hours, c.categ
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="../css/shared.css" rel="stylesheet">
-    <link href="../css/Student3.css" rel="stylesheet">
+    <link href="../css/E2300569.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 <nav class="navbar navbar-dark bg-primary">
