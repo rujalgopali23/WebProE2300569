@@ -2,7 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ==================== Student 1 JS ====================
 
     // Character counter for org_profile textarea
     const profileField = document.querySelector('[name="org_profile"]');
@@ -61,8 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-
-    // ==================== Student 3 JS ====================
 
     // CVV - numbers only, max 3 digits
     const cvvField = document.getElementById('cvv');
